@@ -1,0 +1,15 @@
+
+.nav{
+    width: 200px;
+    display: grid;
+    grid-template-rows: 50px;
+    grid-auto-rows: 50px;
+    gap: 1em;
+    padding: 1em;
+    background-color: orange;
+    transition: all 0.5s;
+
+    &.close{
+        width: 80px;
+    }
+}

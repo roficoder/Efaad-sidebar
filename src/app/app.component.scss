@@ -1,0 +1,14 @@
+
+
+
+.body{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    min-height: 100vh;
+    transition: all 0.5s;
+
+    &.open{
+        grid-template-columns: 80px 1fr;
+    }
+
+}
